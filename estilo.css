@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+main {
+    min-width: 1920px;
+    max-width: 1920px;
+}
+
+header img {
+    margin: 30px;
+}
+
+.area-texto textarea {
+    margin-left: 200px;
+    border: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    resize: none;
+    padding: 20px;
+    outline: 0;
+    /* background-color: lightskyblue; */
+    font-size: 2rem;
+    color: darkblue;
+}
+
+.area-texto {
+    float: left;
+}
+
+.area-texto textarea {
+    text-transform: lowercase;
+}
+
+.area-texto-resultado {
+    float: right;
+}
+
+.area-texto-resultado button {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1.1em;
+    padding: 25px 35px;
+    background-color: darkblue;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.area-texto-resultado textarea {
+    margin-right: 200px;
+    border: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    resize: none;
+    padding: 20px;
+    outline: 0;
+    /* background-color: lightskyblue; */
+    font-size: 2rem;
+    color: darkblue;
+}
+
+.copiar {
+    margin-left: 250px;
+    padding: 10px 30px;
+}
+.aviso {
+    margin-left: 340px;
+    clear: both;
+}
+
+.aviso img {
+    width: 13px;
+    height: 13px;
+}
+
+.aviso span {
+    line-height: -40px;
+}
+
+.criptografar {
+    float: left;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1.1em;
+    padding: 25px 35px;
+    background-color: darkblue;
+    font-weight: bold;
+    border-radius: 10px;   
+}
+
+.criptografar a:hover {
+    color: lightskyblue;
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+.descriptografar {
+    display: block;
+    position: relative;
+    top: 285.5px;
+    left: -80px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 1.1em;
+    padding: 20px 30px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;  
+}
+
+.descriptografar a:hover {
+    color: darkblue;
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer a {
+    font-size: 1.4em;
+}
+
+footer p {
+    margin-top: 60px;
+    text-align: center;
+}
